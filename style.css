@@ -1,4 +1,7 @@
-/* body {
+/* Simple example
+
+
+body {
   background-color: pink;
 }
 
@@ -9,10 +12,15 @@
 } */
 
 
+/* FLOATING MEDIA QUERY */
 
-.wrapper {overflow: auto;}
+/* .wrapper {
+  overflow: auto;
+}
 
-#main {margin-left: 4px;}
+#main {
+  margin-left: 4px;
+}
 
 #leftsidebar {
   float: none;
@@ -25,7 +33,7 @@
 }
 
 .menuitem {
-  background: #CDF0F6;
+  background: #cdf0f6;
   border: 1px solid #d4d4d4;
   border-radius: 4px;
   list-style-type: none;
@@ -34,6 +42,11 @@
 }
 
 @media screen and (min-width: 480px) {
-  #leftsidebar {width: 200px; float: left;}
-  #main {margin-left: 216px;}
-}
+  #leftsidebar {
+    width: 200px;
+    float: left;
+  }
+  #main {
+    margin-left: 216px;
+  }
+} */
